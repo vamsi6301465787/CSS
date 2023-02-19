@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="external.css">
+    <style type="text/css">
+        h2 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+ <table  border="20" >
+    <tr>
+        <td>
+                     <!-- Three ways of css implementation -->
+                    <h1 style="color:red">
+                       This is inline
+                    </h1>
+                    <h2>
+                        This is internal
+                    </h2>
+                    <h3>
+                        This is external
+                    </h3>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+                    <!-- Simple selectors(id,tag,class) -->
+
+                    <h1 id="v">SIMPLE SELECTOR ID</h1>
+
+                    <h1 class="hello">SIMPLE SELECTOR CLASS</h1>
+
+        </td>
+
+   </tr>
+   <tr>
+    <td>
+                     <!-- Combinator selector 
+                        1.descendent selector(space)    all in div tag color
+                        2.child selector(>)  only child div tag color
+                        3.adjacent sibbling selector(+) after div tag color only one
+                        4.general sibbling selector(~) after div tag all   --> 
+
+                        <div>
+                            <p>Descendent selector1(space)</p>
+                            <p>Descendent selector2(space)</p>
+                            <h1>
+                                <p>Child selector in h1 tag(space)</p>
+                            </h1>
+                            <p>Descendent selector3(space)</p>
+                        </div>
+                        <p>adjacent sibbling selector outside div tag(space)</p>
+                        <p>general sibbling selector outside div tag</p>
+                        <p>general sibbling selector outside div tag</p>
+                        <p>general sibbling selector outside div tag</p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+                    <!-- pseudo class selector(:)  for clicking colors-->
+                    <a href="#" >pseudo class selector link(:)</a><br>
+                    <a href="#" >pseudo class selector visited(:)</a><br>
+                    <a href="#" >pseudo class selector hover(:)</a><br>
+                    <a href="#" >pseudo class selector active(:)</a><br>
+    </td>
+   </tr>
+   <tr>
+    <td>
+                   <!-- pseudo element selector(::)  starting line || word || letter-->
+                   <h4>This is element (line) </h4>
+                   <h2>This is element (letter) </h2>
+                   
+    </td>
+   </tr>
+   <tr>
+    <td>
+                    <!-- Attribute selector([]) -->
+
+                    <h5 id="va">Attribute selector([])</h5>
+    </td>
+   </tr>
+   <tr>
+    <td>
+                  <!-- multiple tags -->
+                  <h6>multiple tags</h6>
+                  <u>multiple tags</u>
+    </td>
+   </tr>
+   <tr>
+    <td>
+                  <!-- particular tag with particular class name -->
+                  <b class="vamsi">Class tag with bolt tag</b>
+    </td>
+   </tr>
+
+</table>
+</body>
+</html>
