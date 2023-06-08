@@ -1,0 +1,27 @@
+h1 {
+    color:aqua;
+    background-color: brown;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+#first{
+    color:rgb(5, 15, 15);
+    background-color: rgb(3, 36, 248);
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+.second{
+    color:rgb(215, 14, 88);
+    background-color: rgb(42, 165, 56);
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style:italic;
+
+}

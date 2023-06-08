@@ -1,0 +1,6 @@
+h1::first-letter{
+    color:rgb(239, 10, 232);
+}
+h1::first-line{
+    color:rgb(42, 242, 12);
+}

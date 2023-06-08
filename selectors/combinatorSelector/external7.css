@@ -1,0 +1,12 @@
+h1[id]{
+    color:blue;
+}
+h1[class]{
+    color:brown;
+}
+h2[target="first"]{
+    color:rgb(234, 1, 255);
+}
+h1[target="vamsi"]{
+    color:rgb(70, 236, 10)
+}
